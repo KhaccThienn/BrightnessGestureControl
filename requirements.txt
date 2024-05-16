@@ -1,0 +1,5 @@
+opencv-contrib-python==4.8.1.78
+opencv-python==4.7.0.68
+mediapipe==0.10.7
+screen_brightness_control==0.22.2
+numpy==1.26.1
