@@ -1,6 +1,6 @@
-Đoạn mã sử dụng thư viện OpenCV và MediaPipe để nhận diện bàn tay từ camera, tính toán khoảng cách giữa ngón tay cái và ngón tay trỏ để điều chỉnh độ sáng của màn hình. Dưới đây là giải thích chi tiết về logic của đoạn mã này:
+Đoạn mã sử dụng thư viện OpenCV và MediaPipe để nhận diện bàn tay từ camera, tính toán khoảng cách giữa ngón tay cái và ngón tay trỏ để điều chỉnh độ sáng của màn hình.
 
-### Download Libraries
+### Tải các thư viện cần thiết từ file requirements.txt
 ```python
 pip install -r requirements.txt
 ```
@@ -17,7 +17,7 @@ import numpy as np
 - `mediapipe`: Thư viện MediaPipe để xử lý các điểm đặc trưng của bàn tay.
 - `hypot`: Hàm từ thư viện `math` để tính toán khoảng cách Euclidean.
 - `screen_brightness_control`: Thư viện để điều khiển độ sáng màn hình.
-- `numpy`: Thư viện numpy để xử lý các tính toán số học.
+- `numpy`: Thư viện numpy để xử lý, làm việc với mảng và các tính toán số học.
 
 ### Khởi tạo mô hình
 ```python
